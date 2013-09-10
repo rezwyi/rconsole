@@ -9,7 +9,7 @@ browser console.
 First add the following lines to your application `Gemfile`:
 
 ``` ruby
-group :development
+group :development do
   gem 'rconsole', '~> 0.1.0'
 end
 ```
