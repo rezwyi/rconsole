@@ -3,7 +3,7 @@ module Rconsole
     initializer 'rconsole.middleware' do |app|
       app.middleware.use Rconsole::Middleware
     end
-    
+
     initializer 'rconsole.include_helpers' do
       ActiveSupport.on_load :action_controller do
         ActionController::Base.send :include, Rconsole::Helpers
