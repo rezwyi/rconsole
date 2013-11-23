@@ -23,6 +23,12 @@ your layout view:
 javascript_include_tag(:rconsole) if Rails.env.development?
 ```
 
+OR
+
+```ruby
+<%= javascript_include_rconsole %>
+```
+
 Really easy!
 
 ## Usage
