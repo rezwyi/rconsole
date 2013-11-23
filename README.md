@@ -50,10 +50,6 @@ Then you will see the message on your browser console. Just like this:
 
 Enjoy!
 
-## Contributors
-
-+ [Sergey Rezvanov](http://github.com/rezwyi)
-
 ## Copyright
 
 See LICENSE file.
