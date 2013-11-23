@@ -10,7 +10,7 @@ First add the following lines to your application `Gemfile`:
 
 ``` ruby
 group :development do
-  gem 'rconsole', '~> 0.1.0'
+  gem 'rconsole', '~> 0.1.1'
 end
 ```
 
@@ -23,10 +23,10 @@ your layout view:
 javascript_include_tag(:rconsole) if Rails.env.development?
 ```
 
-OR
+or simply (only for Rails):
 
 ```ruby
-<%= javascript_include_rconsole %>
+javascript_include_rconsole_tag
 ```
 
 Really easy!
