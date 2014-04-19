@@ -9,7 +9,7 @@ First add the following lines to your application `Gemfile`:
 
 ``` ruby
 group :development do
-  gem 'rconsole', '~> 0.1.1'
+  gem 'rconsole', '~> 0.1.2'
 end
 ```
 
